@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Nickelfish Revue</title>
+	<link rel="stylesheet" href="assets/css/styles.css" />
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/revue.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Nickelfish Revue</h1>
+			<h2>Venue Review Platform</h2>
+		</header>
+		<section id="venues">
+			<div class="venue">
+				<div class="venueDetails">
+					<div class="venueName">Name</div>
+					<div class="venueLocation">Location</div>
+					<div class="venueEmail">Email</div>
+					<div class="venueRating">Rating</div>
+				</div>
+				<div class="venueReviews">
+					<div class="venueReviewsHeader">Reviews</div>
+					<div class="reviews">
+						<div class="review">
+							<div class="reviewHeader">Header</div>
+							<div class="reviewText">Text</div>
+							<div class="reviewTextEdit"><textarea class="reviewTextInput"></textarea></div>
+							<div class="reviewEdit">Edit</div>
+							<div class="reviewSave">Save</div>
+							<div class="reviewDelete">Delete</div>
+						</div>
+					</div>
+				</div>
+				<div class="venueActions">
+					<div class="venueActionRate">Rate this Venue</div>
+					<div class="venueActionReview">Review this Venue</div>
+				</div>
+				<div class="actionRate">
+					<div class="rateButton rate05">0.5</div>
+					<div class="rateButton rate10">1.0</div>
+					<div class="rateButton rate15">1.5</div>
+					<div class="rateButton rate20">2.0</div>
+					<div class="rateButton rate25">2.5</div>
+					<div class="rateButton rate30 selected">3.0</div>
+					<div class="rateButton rate35">3.5</div>
+					<div class="rateButton rate40">4.0</div>
+					<div class="rateButton rate45">4.5</div>
+					<div class="rateButton rate50">5.0</div>
+					<div class="rateSubmit">Rate!</div>
+				</div>
+				<div class="actionReview">
+					<h3>Name:</h3>
+					<input type="text" class="addReviewName" />
+					<h3>Review:</h3>
+					<textarea class="addReviewText"></textarea>
+					<div class="reviewSubmit">Review!</div>
+				</div>
+			</div>	
+		</section>
+		<section id="addVenue">
+			<div id="addHeader"><h2>Add a venue:</h2></div>
+			<div id="addName">
+				<div class="addLabel"><h3>Name:</h3></div>
+				<div class="addInput"><input type="text" id="addNameInput" /></div>
+			</div>
+			<div id="addEmail">
+				<div class="addLabel"><h3>Email:</h3></div>
+				<div class="addInput"><input type="text" id="addEmailInput" /></div>
+			</div>
+			<div id="addZip">
+				<div class="addLabel"><h3>Zip:</h3></div>
+				<div class="addInput"><input type="text" id="addZipInput" /></div>
+			</div>
+			<div id="addSubmit">Add!</div>
+		</section>
+	</div>
+</body>
+</html>

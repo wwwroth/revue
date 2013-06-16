@@ -1,0 +1,272 @@
+body, h1, h2, h3, p, ul, li, div, header, section 
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+p {
+	font-size: 10px;
+}
+
+#wrapper {
+	width: 1000px;
+	position: relative;
+	display: block;
+	margin: 25px auto;
+}
+
+header, #venues, .venue, .venueDetails, .venueReviews, .venueActions, .actionRate, .actionReview, .reviews, #addVenue {
+	width: 1000px;
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+#venues {
+	margin: 0px;
+	padding: 0px;
+}
+
+.venue {
+	padding: 0px 0px 10px;
+	margin: 10px 0px;
+	border: 1px dotted #aaa;
+}
+
+.venueDetails {
+	background: #d3e2e8;
+	padding-bottom: 5px;
+	font-size: 14px;
+}
+
+.venueName, .venueLocation, .venueEmail, .venueRating {
+	width: 230px;
+	position: relative;
+	display: block;
+	float: left;
+	margin: 15px 10px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.venueReviewsHeader {
+	position: relative;
+	display: block;
+	float: left;
+	width: 980px;
+	padding: 10px;
+	background: #eee;
+	font-size: 14px;
+}
+
+.reviews {
+	position: relative;
+	float: left;
+	width: 1000px;
+	display: none;
+}
+
+.review {
+	position: relative;
+	display: block;
+	float: left;
+	width: 1000px;
+}
+
+.reviewHeader {
+	position: relative;
+	display: block;
+	float: left;
+	width: 960px;
+	margin: 10px;
+	padding: 10px;
+	background: #eee;
+	border-bottom: 1px solid #000000;
+}
+
+.reviewText {
+	position: relative;
+	display: block;
+	float: left;
+	width: 960px;
+	margin: 10px;
+	padding: 10px;
+	border-bottom: 1px dotted #aaa;
+}
+
+.venueActions {
+	position: relative;
+	width: 1000px;
+	float: left;
+	margin-top: 10px;
+}
+.actionRate, .actionReview {
+	position: relative;
+	display: none;
+	float: left;
+	width: 960px;
+	margin: 20px;
+}
+
+.venueActionRate, .venueActionReview {
+	width: 446px;
+	height: 20px;
+	float: left;
+	position: relative;
+	padding: 10px 0px 5px;
+	margin: 0px 25px;
+	background: #02759f;
+	border: 1px solid #333;
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.rateButton, .rateSubmit, .reviewSubmit, .reviewEdit, .reviewSave, .reviewDelete {
+	width: 75px;
+	height: 30px;
+	float: left;
+	padding: 15px 0px 5px;
+	margin: 0px 5px;
+	border: 1px solid #ccc;
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.rateButton.selected {
+	border: 1px solid #000;
+	color: #000;
+}
+
+.rateSubmit { background: #666;	}
+.rate05 { background: #9f0202; }
+.rate10 { background: #ba3000; }
+.rate15 { background: #ba6000; }
+.rate20 { background: #ba9000; }
+.rate25 { background: #abba00; }
+.rate30 { background: #88ba00; }
+.rate35 { background: #46ba00; }
+.rate40 { background: #0dba00; }
+.rate45 { background: #0d9b02; }
+.rate50 { background: #097e00; }
+
+.actionReview input {
+	width: 960px;
+	background: #eee;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.actionReview textarea {
+	width: 860px;
+	height: 50px;
+	background: #eee;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.reviewSubmit {
+	background: #666;
+	margin-left: 10px;
+}
+
+.reviewTextEdit {
+	display: none;
+	width: 970px;
+	float: left;
+	margin: 10px 0px 10px 20px;
+}
+
+.reviewTextInput {
+	width: 500px;
+}
+
+.reviewEdit, .reviewSave, .reviewDelete {
+	height: 20px;
+	background: #aaa;
+	margin-left: 20px;
+	padding-top: 5px;
+	font-size: 14px;
+}
+
+.reviewSave {
+	display: none;
+}
+
+#addVenue {
+	border: 1px dotted #aaa;
+	position: relative;
+	float: left;
+	display: block;
+	padding: 10px 0px;
+	background: #d9f0cf
+}
+
+#addHeader {
+	width: 130px;
+	margin: 6px 0px 0px 20px;
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+#addName, #addEmail, #addZip {
+	width: 245px;
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-top: 7px;
+}
+
+.addLabel {
+	width: 45px;
+	position: relative;
+	float: left;
+	margin-top: 2px;
+	padding-right: 5px;
+	text-align: right;
+}
+
+.addInput {
+	width: 170px;
+	position: relative;
+	float: left;
+}
+
+.addInput input {
+	width: 170px;
+}
+
+#addSubmit {
+	width: 75px;
+	height: 20px;
+	float: left;
+	background: #666;
+	padding: 10px 0px 5px;
+	margin: 0px 5px 0px 10px;
+	border: 1px solid #ccc;
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+	font-size: 14px;
+}
